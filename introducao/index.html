@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+
+
+        <script>
+            var endereco = {
+                rua: "Rua dos pinheiros",
+                numero: 1293,
+                bairro: "Centro",
+                cidade: "São Paulo",
+                uf: "SP"
+            };
+            //desafio1
+            //ex 1
+            function mostrarEndereco(){
+                return("O usuário mora em "+endereco.cidade+" / "+endereco.uf+" no bairro "+endereco.bairro+" na rua \""+endereco.rua+"\" com nº "+ endereco.numero);
+            }
+            console.log(mostrarEndereco());
+            //setTimeout(exibeAlgo, 5000);
+
+            //ex 2
+            function pares(x,y){
+                // codigo aqui
+                for(x; x<y; x+=1){
+                    if((x%2)==0){
+                        console.log(x);
+                    }
+                }
+            }
+            pares(32,321);
+        </script>
+    </body>
+</html>
