@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"/>
         <title>Curso Javascript</title>
     </head>
     <body>
         <div id="app">
-            <div class="box"></div>
+            <ul>
+                <li>
+                    Fazer café
+                    <a href="#">Excluir</a>
+                </li>
+                <li>
+                    Estudar Javascript
+                    <a href="#">Excluir</a>
+                </li>
+                <li>
+                    Acessar comunidade da Rocketseat
+                    <a href="#">Excluir</a>
+                </li>
+            </ul>
+            <input type="text" placeholder="Digite um todo">
+            <button>Adicionar</button>
         </div>
         
-        <script>
-            var boxElement = document.querySelector('.box');
-            
-            boxElement.style.width = "100px";
-            boxElement.style.height = "100px";
-            boxElement.style.backgroundColor = '#f00';
-        </script>
+        <script src="todo.js"></script>
     </body>
 </html>
